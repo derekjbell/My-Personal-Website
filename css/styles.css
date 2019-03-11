@@ -1,5 +1,7 @@
+/* ------------ Styles ------------ */
+
 body {
-  background-color: #cdffeb;
+  margin: 0;
 }
 
 hr {
@@ -13,12 +15,28 @@ hr {
 
 h1{
   color: #009f9d;
+  margin-top: 0;
+
 }
 
 h3{
   color: #009f9d;
 }
 
-#profilePic {
+/* ------------ Classes ------------ */
+
+.Circular {
   border-radius: 100%;
+}
+
+.topContainer {
+  background-color: #E4F9F5;
+}
+
+.middleContainer {
+  background-color: red;
+}
+
+.bottomContainer {
+  background-color: yellow;
 }
