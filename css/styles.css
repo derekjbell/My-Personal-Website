@@ -3,7 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  color: #40514E;
+  color: #00adb5;
 }
 
 hr {
@@ -24,17 +24,18 @@ a:hover {
 
 p {
   line-height: 2;
+  color: #eeeeee
 }
 
 h1 {
-  color: #66BFBF;
+  color: #14ffec;
   font-size: 5.625rem;
   margin-top: 50px auto 0 auto;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #14ffec;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
@@ -43,13 +44,15 @@ h2 {
 }
 
 h3 {
-  color: #11999E;
+  color: #14ffec;
   font-family: 'Montserrat', sans-serif;
 }
 
 /* ------------ Classes ------------ */
 .Circular {
-  border-radius: 100%;
+  border-style: inset;
+  border-color: #14ffec;
+  border-width: 6px;
 }
 
 .intro {
@@ -69,18 +72,21 @@ h3 {
 }
 
 .topContainer {
-  background-color: #E4F9F5;
+  background-color: #212121;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .middle-container {
-  margin: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-color: #323232
 }
 
 .bottom-container {
   background-color: #66BFBF;
-  padding: 50px 0 20px;
+  padding: 40px 0 20px;
 }
 
 .top-cloud {
@@ -119,6 +125,10 @@ h3 {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
+}
+
+.skills {
+  padding-top: 50px;
 }
 
 .butn {
