@@ -48,7 +48,13 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
 /* ------------ Classes ------------ */
+.animated {
+  ;
+}
+
 .Circular {
   border-style: inset;
   border-color: #14ffec;
@@ -79,7 +85,7 @@ h3 {
 }
 
 .middle-container {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 30px;
   background-color: #323232
 }
