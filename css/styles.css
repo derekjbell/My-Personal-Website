@@ -48,17 +48,22 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+ 
+
 
 
 /* ------------ Classes ------------ */
-.animated {
-  ;
+
+.pfp {
+  width: 10%;
+  height: 10%;
 }
 
 .Circular {
   border-style: inset;
   border-color: #14ffec;
   border-width: 6px;
+  size: 25px;
 }
 
 .intro {
